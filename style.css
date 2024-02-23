@@ -132,7 +132,9 @@ body {
     padding: 10px;
 }
 .course-card{
-    width: 350px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin:5px
 }
 .course-card img{
     width: 100%;
@@ -194,6 +196,11 @@ body {
     margin: 20px;
 }
 
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
 
 
 
